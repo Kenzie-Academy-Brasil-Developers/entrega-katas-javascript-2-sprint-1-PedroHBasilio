@@ -58,7 +58,7 @@ function fibonacci(n){
         fibo = add(arr[sub(i, 1)], arr[sub(i, 2)])
         arr.push(fibo)
     }
-    return arr[sub(n, 1)]
+    return arr[n]
 }
 
-console.assert(fibonacci(8) === 13, 'A função fibonacci não está funcionando como esperado');
+console.assert(fibonacci(7) === 13, 'A função fibonacci não está funcionando como esperado');
